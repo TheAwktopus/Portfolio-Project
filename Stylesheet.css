@@ -1,0 +1,165 @@
+html {
+    background-color: #fff;
+}
+
+body {
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+
+section {
+    padding: 120px 80px;
+}
+
+h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+button {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+ul {
+    font-family: 'Poppins';
+    font-size: 1em;
+}
+
+li {
+    font-size: .8em;
+}
+
+
+/** HERO SECTION **/
+section.hero-section {
+    text-align: center;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: linear-gradient( #f8e8e8, #fdabab) !important;
+}
+
+section.hero-section div {
+    max-width: 70% !important;
+    transform: rotate(-0.5deg);
+    transition: 0.3s ease-in-out;
+}
+
+section.hero-section div:hover {
+    transform: rotate(0.1deg);
+}
+
+span.wiggle {
+    display: none;
+    pointer-events: none;
+    text-decoration-line: underline !important;
+    text-decoration-style: wavy !important;
+    text-decoration-color: transparent;
+    transition: display 0.3s ease-in-out !important;
+}
+
+section.hero-section div:hover .wiggle {
+    display: contents;
+    text-decoration-color: #4CC9F0 !important;
+}
+
+section.hero-section h1 {
+    color: #fff;
+}
+
+@media (min-width: 1190px) {
+    section.hero-section p {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/** PHOTO SECTION **/
+section.photo-section img {
+    width: 28%;
+    height: 30%;
+    object-fit: cover;
+    margin: calc(10%/6);
+}
+
+@media (max-width:980px) {
+    section.hero-section h1 {
+        font-size: 1.8em;
+    }
+}
+
+section.hero-section h2 {
+    color: #fff;
+}
+
+section.hero-section p {
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+a#view-more {
+    pointer-events: auto;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    transform: rotate(.5deg) !important;
+    color: white;
+    background-color: transparent;
+    background-image: linear-gradient(#4cc9f0,#4895ef);
+    padding: 0.5em 0.85em;
+    border: 2px solid #4cc9f0;
+}
+
+a#view-more:hover {
+    background-color: transparent;
+    background-image: none;
+}
+
+section.hero-section p {
+    color:#fff;
+}
+
+
+/** MEET ME SECTION **/
+
+section#meet-me {
+    background-color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1524055988636-436cfa46e59e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    transform: skew(2deg);
+}
+
+section div.plant-definition {
+    max-width: 50% !important;
+}

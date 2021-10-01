@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script src ="Script.js"></script>
+</head>
+<body>
+    <section class="hero-section">
+    <div>
+    <h1>My 
+    <span class="wiggle">Frustrating</span> 
+    <span class="first-word">Website</span> Portfolio</h1>
+    <h2>A small collection of my web development practice.</h2>
+    <p class="introduction">
+        Thank you for subjecting yourself to my portfolio. This entire site was designed in a way to be frustrating to the user and annoy those with great observance skills.
+    </p>
+    <a href="file:///C:/Users/ashau/Desktop/WEB%20DEV%20FILES/HTML%20FOLDERS/New%20Website.html" id="view-more">View More</a>
+    </div>
+    </section>
+    <section id="meet-me">
+        <div class="plant-definition">
+            <h2>For those who didn't know, I <i>love</i> plants.</h2>
+            <p>
+            They're green, clean the air, and are good for mental health.
+            </p>
+            <h3><b>Plants</h3>
+                <ul>
+                    <ol><i>noun:</i>
+                        <li>any member of the kingdom Plantae, comprising multicellular organisms that typically produce their own food from inorganic matter by the process of photosynthesis and that have more or less rigid cell walls containing cellulose, including vascular plants, mosses, liverworts, and hornworts: some classification schemes may include fungi, algae, bacteria, blue-green algae, and certain single-celled eukaryotes that have plantlike qualities, as rigid cell walls or photosynthesis.</li>
+                    </ol>
+                </ul>
+        </div>
+    </section>
+    <section class="photo-section">
+        <div>
+            <h2>SOME BUN PHOTOS</h2>
+           <img src="https://images.pexels.com/photos/2061754/pexels-photo-2061754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            <img src="https://images.pexels.com/photos/1310105/pexels-photo-1310105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            <img src="https://images.pexels.com/photos/2397505/pexels-photo-2397505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <img src="https://images.pexels.com/photos/4588056/pexels-photo-4588056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            <img src="https://images.pexels.com/photos/2389075/pexels-photo-2389075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            <img src="https://images.pexels.com/photos/4492264/pexels-photo-4492264.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        </div>
+    </section>
+</body>
+</html>
