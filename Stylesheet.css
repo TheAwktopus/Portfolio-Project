@@ -11,6 +11,10 @@ section {
     padding: 120px 80px;
 }
 
+.inner {
+    width: 100%;
+}
+
 h1 {
     font-size: 46px;
     text-transform: uppercase;
