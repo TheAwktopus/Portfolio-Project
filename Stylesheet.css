@@ -1,8 +1,3 @@
-.site-inner {
-  	max-width: 100%;
-	padding-bottom: 0 !important; /* Ensures no padding between widgets area and footers responsive design */
-}
-
 html {
     background-color: #fff;
 }
