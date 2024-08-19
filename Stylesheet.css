@@ -52,7 +52,7 @@ li {
     font-size: .8em;
 }
 
-.markdown-body {
+div.markdown-body {
   max-width: 100% !important;
 }
 
