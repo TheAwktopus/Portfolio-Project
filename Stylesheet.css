@@ -1,3 +1,6 @@
+.inner {
+  max-width: 100%;
+}
 html {
     background-color: #fff;
 }
@@ -9,10 +12,6 @@ body {
 
 section {
     padding: 120px 80px;
-}
-
-.inner {
-    width: 100%;
 }
 
 h1 {
